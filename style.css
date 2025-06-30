@@ -298,11 +298,15 @@ section{
 #about{
     position: relative;
 }
-
+.experience-container{
+    display: flex;
+    flex-direction:row;
+}
 .about-containers {
     gap:2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    
 }
 
 .about-details-container {
